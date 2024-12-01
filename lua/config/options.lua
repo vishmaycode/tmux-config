@@ -4,3 +4,6 @@
 
 vim.opt.wrap = true
 vim.opt.winbar = "%=%m %f"
+
+-- Disable format on save
+vim.g.lazymode_format_on_save = false
