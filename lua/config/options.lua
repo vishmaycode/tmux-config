@@ -7,3 +7,6 @@ vim.opt.winbar = "%=%m %f"
 
 -- Disable format on save
 vim.g.lazymode_format_on_save = false
+
+-- Disable ruby provider if not required
+vim.g.loaded_ruby_provider = 0

@@ -41,5 +41,3 @@ require("lazy").setup({
         },
     },
 })
-
-vim.g.loaded_ruby_provider = 0 -- Disable ruby provider if not required
