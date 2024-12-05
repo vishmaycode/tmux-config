@@ -6,3 +6,7 @@ vim.keymap.set("n", "<leader>uf", function()
     vim.g.autoformat = not vim.g.autoformat
     print(vim.g.autoformat and "Autoformat enabled" or "Autoformat disabled")
 end, { desc = "Toggle autoformat" })
+
+vim.api.nvim_del_keymap('n', 's')  -- Normal mode
+vim.api.nvim_del_keymap('x', 's')  -- Visual mode
+vim.api.nvim_del_keymap('o', 's')  -- Operator-pending mode
