@@ -5,6 +5,9 @@ my tmux config
 
 ### Files
 
-inside home folder
+~/.tmux.conf 
 
-.tmux.conf 
+
+### references
+
+[https://medium.com/@bhavik.n/customize-tmux-to-use-it-effectively-28b262c8b692](https://medium.com/@bhavik.n/customize-tmux-to-use-it-effectively-28b262c8b692)
